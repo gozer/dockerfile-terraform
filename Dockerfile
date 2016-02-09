@@ -1,5 +1,7 @@
 FROM alpine:3.3
 
+MAINTAINER gozer@ectoplasm.org
+
 ENV TERRAFORM_VERSION 0.6.11
 
 RUN apk add --update wget ca-certificates unzip && \
